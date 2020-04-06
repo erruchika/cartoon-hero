@@ -1,0 +1,29 @@
+
+body{
+	background-color:
+}
+h1{
+	font-size: 40px;
+	color:	teal;
+}
+h2{
+	color:red;
+}
+h2{
+	color:purple;   /*-- conflict in ruleset , so rule specified last wil take precedence**/
+}
+.big{
+	color: yellow;   /*To use combination of styles accross html elements we can use class attribute and define styles on them */
+}
+.uppercase{
+	text-transform: uppercase; ;
+}
+.big.uppercase{
+	color: navy;
+}
+span{
+	color: violet;
+}
+h1 span{
+	color: orange;
+}
